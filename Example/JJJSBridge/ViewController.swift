@@ -59,7 +59,7 @@ class ViewController: UIViewController {
         }
         webView.jj_jsbridge.addHandler(with: "toDemoOpenWeb") { (data) in
             print("data : \(data)")
-            let vc = DemoOpenWebViewController()
+            let vc = DemoBaseWebViewController()
             self.present(vc, animated: true) {
                 vc.startLoad(with:"index2")
             }

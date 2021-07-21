@@ -9,7 +9,7 @@
 import UIKit
 import JJJSBridge
 
-class DemoOpenWebViewController: JJBaseWebViewController {
+class DemoBaseWebViewController: JJBaseWebViewController {
 
     public override func jsModulesBuilders() -> [JJWebBaseJSModuleBuilder] {
         return [

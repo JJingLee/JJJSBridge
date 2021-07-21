@@ -46,6 +46,7 @@
 		76D6A3073A147D7423EDFBE5E291241D /* JJWebJSDefaultDispatcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24230C33B8E9C36BB4DA514A1DD52E5B /* JJWebJSDefaultDispatcher.swift */; };
 		7EB06ADEF85CA5259C2AB6A0B850B4B9 /* FileFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = D268C7D1D487545C8E4CC1EC866D3CD8 /* FileFetcher.swift */; };
 		80FF5AEF5B4FCA2E892E50E6686B00DA /* ConstraintItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A86947970ACCF7D5118C9899065C57 /* ConstraintItem.swift */; };
+		835A2B4826A812380067110A /* JJWebJSHandlerDispatchFormat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 835A2B4726A812380067110A /* JJWebJSHandlerDispatchFormat.swift */; };
 		879CDB5808CCDFD7860969DA8E01DD3B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE682FF9DDDD547F2355444AB31B18D4 /* Foundation.framework */; };
 		88396E68DC05A379282F3B374F75F43C /* FBSnapshotTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1979DC86DCAB33E646F2CEBF212635D3 /* FBSnapshotTestController.m */; };
 		8CE3BF0ACE07EA42DD5DAC871BF4B767 /* FBSnapshotTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 66B5D1110E562CA15EED53799B5D5EC8 /* FBSnapshotTestCase.m */; };
@@ -205,14 +206,14 @@
 		4BCBD88FC6B0F94A56A781295D02F839 /* ConstraintOffsetTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintOffsetTarget.swift; path = Source/ConstraintOffsetTarget.swift; sourceTree = "<group>"; };
 		4BF913857F2B03A1EDB60E4A33927558 /* Pods-JJJSBridge_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-JJJSBridge_Example.modulemap"; sourceTree = "<group>"; };
 		4CAB654C090C3B2CEB5E85BFA6018AD9 /* Pods-JJJSBridge_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JJJSBridge_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		4D5EB7D3991CF8800F2ACF877F33271C /* Pods_JJJSBridge_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_JJJSBridge_Example.framework; path = "Pods-JJJSBridge_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D5EB7D3991CF8800F2ACF877F33271C /* Pods_JJJSBridge_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JJJSBridge_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		528F6E8C9BF53DB64DA7DB1FE9E86450 /* JJJSBridge-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JJJSBridge-prefix.pch"; sourceTree = "<group>"; };
 		53C4BA61A63B4A7153EF6BAA770470D5 /* Pods-JJJSBridge_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JJJSBridge_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		555AB6CFCF283C84E4A5EB14B40B7A72 /* ConstraintMakerExtendable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMakerExtendable.swift; path = Source/ConstraintMakerExtendable.swift; sourceTree = "<group>"; };
 		59727819AB5CDB4E4E343EEC9FCC507F /* JJJSBridge-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JJJSBridge-umbrella.h"; sourceTree = "<group>"; };
 		5AA330BC90ADA0D58814CF138294EEB5 /* ConstraintLayoutGuideDSL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintLayoutGuideDSL.swift; path = Source/ConstraintLayoutGuideDSL.swift; sourceTree = "<group>"; };
 		5B32B15393EB5A4E46867ACCE3BCDEA2 /* Pods-JJJSBridge_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JJJSBridge_Example-dummy.m"; sourceTree = "<group>"; };
-		5C4F31330DFA99D699E4BDC8C3573D73 /* FBSnapshotTestCase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FBSnapshotTestCase.framework; path = FBSnapshotTestCase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C4F31330DFA99D699E4BDC8C3573D73 /* FBSnapshotTestCase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FBSnapshotTestCase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		60A85CED21256664DCCE51577A065D8F /* JJWebJSHandlerLoader.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = JJWebJSHandlerLoader.swift; sourceTree = "<group>"; };
 		610FB89AF993AB995130264124674BC0 /* ConstraintMakerPriortizable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMakerPriortizable.swift; path = Source/ConstraintMakerPriortizable.swift; sourceTree = "<group>"; };
 		6131D50A16DD8D606D3975323FA8D2C0 /* Pods-JJJSBridge_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JJJSBridge_Tests-Info.plist"; sourceTree = "<group>"; };
@@ -223,32 +224,33 @@
 		66B5D1110E562CA15EED53799B5D5EC8 /* FBSnapshotTestCase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCase.m; path = FBSnapshotTestCase/FBSnapshotTestCase.m; sourceTree = "<group>"; };
 		66E36BDF34DC68B842123F65800CEA03 /* SwiftSupport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftSupport.swift; path = FBSnapshotTestCase/SwiftSupport.swift; sourceTree = "<group>"; };
 		6BC80C099CD2E8DBF4E7C6F8A050C0F5 /* UIApplication+StrictKeyWindow.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIApplication+StrictKeyWindow.h"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.h"; sourceTree = "<group>"; };
-		742A0689B736EA3A0D4C6F533A413BC1 /* JJBundle.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = JJBundle.bundle; path = "JJBundle-JJBundle.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
+		742A0689B736EA3A0D4C6F533A413BC1 /* JJBundle.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JJBundle.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		74FB71AB2E5593D13CD54EC480D73B3A /* AnyExport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AnyExport.swift; sourceTree = "<group>"; };
 		77BEA861F4D11745869C3AFC1BC9B0E1 /* UIImage+Diff.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Diff.m"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.m"; sourceTree = "<group>"; };
 		7CA31A18D9679395488071592FDFC474 /* LayoutConstraintItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LayoutConstraintItem.swift; path = Source/LayoutConstraintItem.swift; sourceTree = "<group>"; };
 		7F4D8BD70E96F087E422534F8C292F2B /* JJWebJSModule.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = JJWebJSModule.swift; sourceTree = "<group>"; };
 		81977786C545980599DE6BABE4C66282 /* JJJSBridgeWebViewDSL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = JJJSBridgeWebViewDSL.swift; sourceTree = "<group>"; };
 		831F73354C3077F33F4C4A3E63E901CD /* Pods-JJJSBridge_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JJJSBridge_Example.release.xcconfig"; sourceTree = "<group>"; };
+		835A2B4726A812380067110A /* JJWebJSHandlerDispatchFormat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JJWebJSHandlerDispatchFormat.swift; sourceTree = "<group>"; };
 		8714D7B2005FC15F8908685965E83A93 /* Pods-JJJSBridge_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JJJSBridge_Example-Info.plist"; sourceTree = "<group>"; };
 		8832B7A6A3B3E03DC7D601568C68221A /* JJJSBridge.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JJJSBridge.release.xcconfig; sourceTree = "<group>"; };
 		8B8450394AE47F81AFF4481A4C7301DF /* ConstraintMakerRelatable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMakerRelatable.swift; path = Source/ConstraintMakerRelatable.swift; sourceTree = "<group>"; };
-		8DDC6EBA8BCED9225A096BE8C2E3898B /* readme.md */ = {isa = PBXFileReference; includeInIndex = 1; name = readme.md; path = JJBundle/Classes/readme.md; sourceTree = "<group>"; };
+		8DDC6EBA8BCED9225A096BE8C2E3898B /* readme.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = readme.md; path = JJBundle/Classes/readme.md; sourceTree = "<group>"; };
 		900C1F6F3B06FCD3AA249D979417579D /* UILayoutSupport+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UILayoutSupport+Extensions.swift"; path = "Source/UILayoutSupport+Extensions.swift"; sourceTree = "<group>"; };
 		90B7F2188F91EAA7C62D85A534D3E1BC /* ConstraintRelation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintRelation.swift; path = Source/ConstraintRelation.swift; sourceTree = "<group>"; };
 		94DF4D484CD8B7D9B8B7D247BAADAA96 /* Bundle+JJJSBridge.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "Bundle+JJJSBridge.swift"; sourceTree = "<group>"; };
 		95E59AF0681C496932A7EB23C8BEE7D0 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		979486118B3E90C08386079D57962701 /* SnapKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SnapKit.framework; path = SnapKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		979486118B3E90C08386079D57962701 /* SnapKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SnapKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		99A454C2C9E9F5D800B01BDB6310FE7A /* ConstraintDSL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintDSL.swift; path = Source/ConstraintDSL.swift; sourceTree = "<group>"; };
-		9D918BA3E983F2481CABC89AECD5DB16 /* JJJSBridge.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = JJJSBridge.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D918BA3E983F2481CABC89AECD5DB16 /* JJJSBridge.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = JJJSBridge.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A0275FC982B8057636D6CE69D02F7E90 /* Pods-JJJSBridge_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-JJJSBridge_Tests.modulemap"; sourceTree = "<group>"; };
 		A0BB195A2318546BCF00A3DA7692DC3A /* ConstraintInsets.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintInsets.swift; path = Source/ConstraintInsets.swift; sourceTree = "<group>"; };
 		A125CA71EB298DBE7DC20883918FF895 /* SnapKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SnapKit.modulemap; sourceTree = "<group>"; };
 		A19E00D3CED969DA147E40415C2BCFE2 /* FBSnapshotTestCasePlatform.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCasePlatform.m; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.m; sourceTree = "<group>"; };
 		A2CB9BDB4E9A6EFAF9B5E218987C0CD9 /* FBSnapshotTestCase-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FBSnapshotTestCase-Info.plist"; sourceTree = "<group>"; };
-		A5FF68E9B081F50F63AC543BC60AD566 /* Pods_JJJSBridge_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_JJJSBridge_Tests.framework; path = "Pods-JJJSBridge_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		A6CEB01C24D8AE895A7862F87C76D910 /* JJBundle.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = JJBundle.framework; path = JJBundle.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5FF68E9B081F50F63AC543BC60AD566 /* Pods_JJJSBridge_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JJJSBridge_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6CEB01C24D8AE895A7862F87C76D910 /* JJBundle.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JJBundle.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA02FA6DBB73A3566AB546BC229D8FF7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		AA5048393C152C981C66CEF55AFB7F34 /* SnapKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SnapKit-dummy.m"; sourceTree = "<group>"; };
 		AABAFDD56AA39254528E30DFD7B89546 /* Constraint.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Constraint.swift; path = Source/Constraint.swift; sourceTree = "<group>"; };
@@ -256,21 +258,21 @@
 		B85D2AE0E877EE9AA6B0CD4500704529 /* JJBundle-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "JJBundle-Info.plist"; sourceTree = "<group>"; };
 		BA4CEF936A9F008C55887F16A8348D25 /* UIImage+Snapshot.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Snapshot.h"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.h"; sourceTree = "<group>"; };
 		BE682FF9DDDD547F2355444AB31B18D4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		C08BD8D6852721E2B1C1754CCDF2F4E4 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		C08BD8D6852721E2B1C1754CCDF2F4E4 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		C4679A4F96A997379EE94E3731A46973 /* JJJSBridge-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "JJJSBridge-Info.plist"; sourceTree = "<group>"; };
 		C4AC8787A87ED072879F607EF07EE48D /* Typealiases.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Typealiases.swift; path = Source/Typealiases.swift; sourceTree = "<group>"; };
 		C70AF9846A0B21298295342C0175DFF5 /* JJJSBridge-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JJJSBridge-dummy.m"; sourceTree = "<group>"; };
-		C7B83C27D163D91B9589CB58C291C869 /* test.js */ = {isa = PBXFileReference; includeInIndex = 1; name = test.js; path = JJBundle/Classes/test.js; sourceTree = "<group>"; };
+		C7B83C27D163D91B9589CB58C291C869 /* test.js */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.javascript; name = test.js; path = JJBundle/Classes/test.js; sourceTree = "<group>"; };
 		C8263B7E5A2E44292853709EF31DE85F /* Pods-JJJSBridge_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JJJSBridge_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		C8A30A790A4678FE87D6EAD2E7722A5E /* JJBundle.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JJBundle.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA663A191A4A41065E56E52647BAC46A /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = JJJSBridge/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
 		CB6D6F29F9557BC011EE49D493C21D7F /* FBSnapshotTestCase.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBSnapshotTestCase.release.xcconfig; sourceTree = "<group>"; };
 		CDF1E74092C21828F0D8AAE9EB1FAEA3 /* ConstraintDescription.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintDescription.swift; path = Source/ConstraintDescription.swift; sourceTree = "<group>"; };
-		CF69E111378B65DCB7269ADFDCD0E114 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		CF69E111378B65DCB7269ADFDCD0E114 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		D240D36603E08307F4A013EE9F2451D4 /* ConstraintMultiplierTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMultiplierTarget.swift; path = Source/ConstraintMultiplierTarget.swift; sourceTree = "<group>"; };
 		D268C7D1D487545C8E4CC1EC866D3CD8 /* FileFetcher.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FileFetcher.swift; path = JJBundle/Classes/FileFetcher.swift; sourceTree = "<group>"; };
-		D646CE495126C0693EEBEBDB8F325BAF /* JJJSBridge.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = JJJSBridge.framework; path = JJJSBridge.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D872C9CD6DEBFFCB605BBADD7C41EEE0 /* test.js */ = {isa = PBXFileReference; includeInIndex = 1; path = test.js; sourceTree = "<group>"; };
+		D646CE495126C0693EEBEBDB8F325BAF /* JJJSBridge.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JJJSBridge.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D872C9CD6DEBFFCB605BBADD7C41EEE0 /* test.js */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.javascript; path = test.js; sourceTree = "<group>"; };
 		D96CD5DAB8BDEB3203F3EEB7581E83BB /* Pods-JJJSBridge_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JJJSBridge_Tests-umbrella.h"; sourceTree = "<group>"; };
 		DC438B904AFF012C9308CDF00109D988 /* FBSnapshotTestCasePlatform.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCasePlatform.h; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.h; sourceTree = "<group>"; };
 		DC93C3D1A49F597C1BDE2887C7E9BA55 /* FBSnapshotTestCase.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBSnapshotTestCase.debug.xcconfig; sourceTree = "<group>"; };
@@ -375,7 +377,6 @@
 			children = (
 				C9414A0C00B833E89EF09B1D0BEC9EB8 /* Worker */,
 			);
-			name = JavascriptCoreAbilities;
 			path = JavascriptCoreAbilities;
 			sourceTree = "<group>";
 		};
@@ -385,7 +386,6 @@
 				A5883CC33E55990BFA9712B70BB894C1 /* DSLs */,
 				A4999F51C39D2B2F72B659392B866C74 /* EventListens */,
 			);
-			name = WebViewAbilities;
 			path = WebViewAbilities;
 			sourceTree = "<group>";
 		};
@@ -448,14 +448,14 @@
 			name = Resources;
 			sourceTree = "<group>";
 		};
-		639B79A45BDD3BE207AC8E3C95C0AC61 /* JKOJSBFoundation */ = {
+		639B79A45BDD3BE207AC8E3C95C0AC61 /* JJJSBridgeFoundation */ = {
 			isa = PBXGroup;
 			children = (
 				2DAAE65B977CB381560087B253D91B9B /* JavascriptCoreAbilities */,
 				2F785CBFE3B70462EFFA558AD634D06C /* WebViewAbilities */,
 			);
-			name = JKOJSBFoundation;
-			path = JJJSBridge/Classes/JKOJSBFoundation;
+			name = JJJSBridgeFoundation;
+			path = JJJSBridge/Classes/JJJSBridgeFoundation;
 			sourceTree = "<group>";
 		};
 		75D48A5A9FA07C940ED824BD8622B9FE /* FBSnapshotTestCase */ = {
@@ -465,7 +465,6 @@
 				EE64ED9D965EE806CE890F5E2E41833F /* Support Files */,
 				A69867CC4E1F73B2E561A762D41D42DC /* SwiftSupport */,
 			);
-			name = FBSnapshotTestCase;
 			path = FBSnapshotTestCase;
 			sourceTree = "<group>";
 		};
@@ -479,14 +478,14 @@
 			name = Pod;
 			sourceTree = "<group>";
 		};
-		83C89187C4F53067810F2017A3AE0318 /* openWebComponenets */ = {
+		83C89187C4F53067810F2017A3AE0318 /* openWebComponents */ = {
 			isa = PBXGroup;
 			children = (
 				AFD71C3614E315348A7264734999D373 /* BaseComponents */,
 				A5DAC8E231456AC8E9B610085B9E9300 /* BaseWebViewController */,
 			);
-			name = openWebComponenets;
-			path = JJJSBridge/Classes/openWebComponenets;
+			name = openWebComponents;
+			path = JJJSBridge/Classes/openWebComponents;
 			sourceTree = "<group>";
 		};
 		8FBF89AF9A50BF4F6AF23349C3487674 /* JJJSBridge */ = {
@@ -494,8 +493,8 @@
 			children = (
 				CA663A191A4A41065E56E52647BAC46A /* ReplaceMe.swift */,
 				3BC28B70C76581B29235692B4D939105 /* Bundle */,
-				639B79A45BDD3BE207AC8E3C95C0AC61 /* JKOJSBFoundation */,
-				83C89187C4F53067810F2017A3AE0318 /* openWebComponenets */,
+				639B79A45BDD3BE207AC8E3C95C0AC61 /* JJJSBridgeFoundation */,
+				83C89187C4F53067810F2017A3AE0318 /* openWebComponents */,
 				81B406C3D4C5701B22A409B20BD335E1 /* Pod */,
 				DA753BC594E7CB64B38A18DC2AE1EC44 /* Support Files */,
 			);
@@ -513,7 +512,6 @@
 				5885BF9B0C6053F84040F21B71A4C8FD /* Resources */,
 				DBF8C27A826C5D9D36AC9D290A989697 /* Support Files */,
 			);
-			name = JJBundle;
 			path = JJBundle;
 			sourceTree = "<group>";
 		};
@@ -540,7 +538,6 @@
 			children = (
 				142AD7E631A8F08ED296384739A5A995 /* JJJSFunctionObserver.swift */,
 			);
-			name = EventListens;
 			path = EventListens;
 			sourceTree = "<group>";
 		};
@@ -550,7 +547,6 @@
 				4379EF9BF344DB77F0092E50990DD9D2 /* JJJSBridgeWebExtensions.swift */,
 				81977786C545980599DE6BABE4C66282 /* JJJSBridgeWebViewDSL.swift */,
 			);
-			name = DSLs;
 			path = DSLs;
 			sourceTree = "<group>";
 		};
@@ -560,7 +556,6 @@
 				655FD30485CDA057C8F7814415CD81F9 /* JJBaseWebViewController.swift */,
 				24230C33B8E9C36BB4DA514A1DD52E5B /* JJWebJSDefaultDispatcher.swift */,
 			);
-			name = BaseWebViewController;
 			path = BaseWebViewController;
 			sourceTree = "<group>";
 		};
@@ -588,9 +583,9 @@
 				FAFA898A1DD7E0A8EB5E0310AF88EA96 /* JJWebJSFunction.swift */,
 				E22BDB45F0764C979B4871331AEA21E6 /* JJWebJSFunctionEventHandler.swift */,
 				60A85CED21256664DCCE51577A065D8F /* JJWebJSHandlerLoader.swift */,
+				835A2B4726A812380067110A /* JJWebJSHandlerDispatchFormat.swift */,
 				7F4D8BD70E96F087E422534F8C292F2B /* JJWebJSModule.swift */,
 			);
-			name = BaseComponents;
 			path = BaseComponents;
 			sourceTree = "<group>";
 		};
@@ -621,7 +616,6 @@
 				74FB71AB2E5593D13CD54EC480D73B3A /* AnyExport.swift */,
 				01E455FB503E736776D449225BB84E51 /* JJJSWorker.swift */,
 			);
-			name = Worker;
 			path = Worker;
 			sourceTree = "<group>";
 		};
@@ -754,7 +748,6 @@
 				900C1F6F3B06FCD3AA249D979417579D /* UILayoutSupport+Extensions.swift */,
 				D8DD87D2CBEF24A0173DBB385A2B14B1 /* Support Files */,
 			);
-			name = SnapKit;
 			path = SnapKit;
 			sourceTree = "<group>";
 		};
@@ -1046,6 +1039,7 @@
 			files = (
 				E058BB0E1D50743E7A8E08217A7D6E43 /* AnyExport.swift in Sources */,
 				E276C204C49167F96A56E666C907B340 /* Bundle+JJJSBridge.swift in Sources */,
+				835A2B4826A812380067110A /* JJWebJSHandlerDispatchFormat.swift in Sources */,
 				B5E0B3D5F7CEFC65CAFB86E3C261FC7C /* JJBaseWebViewController.swift in Sources */,
 				DBE478D9F1C0665C0C25FC138BA32FCD /* JJJSBridge-dummy.m in Sources */,
 				E9A4ECE6FA7592A17AB2E631743AA1F0 /* JJJSBridgeWebExtensions.swift in Sources */,
@@ -1556,8 +1550,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};

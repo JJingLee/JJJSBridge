@@ -8,14 +8,6 @@
 import Foundation
 import WebKit
 
-public protocol JJWebJSHandlerDispatchFormat {
-    var functionName : String {get set}
-    var args : [Any] {get set}
-    var functionKey : String {get}
-    var argsKey : String {get}
-    func parse(_ data : Any)
-}
-
 public class JJWebJSModuleLoader {
     private var _eventHandler : JJWebJSFunctionEventDispatcher?
     weak var _webview : WKWebView?
