@@ -11,9 +11,13 @@ To make native module and function import be like configure legos. Could Imports
 
 ## Roles
 > JJWebJSModuleBuilder : Build All JS Modules to JJBaseWebViewController.
+
 > JJWebJSModule : Define module name
+
 > JJWebJSFunction : Define functions
+
 > JJWebJSHandlerDispatch : Define how you communicate with webcore through MessageHandler.
+
 > JJWebJSFunctionEventHandler : Listen actions from Funtion, and it holds WebView.
 
 <img src="https://drive.google.com/uc?export=view&id=1aKozUtuv5Z_n1Q6Z4VufhwYoOCLHbFH_" width="60%">
