@@ -35,7 +35,7 @@ class DemoBaseWebViewController: JJBaseWebViewController {
 
     public override func jsModulesBuilders() -> [JJWebBaseJSModuleBuilder] {
         return [
-            ConsoleJSModule(name: "jkosConsole"),
+            ConsoleJSModule(name: "jjConsole"),
             DemoJSModuleBuilder(name: "demoAlert")
         ]
     }
@@ -86,7 +86,11 @@ public class ConsoleLogFunction : JJWebJSFunction {
 
 }
 ```
-
+How javascript use?
+```javascript
+var jjconsoler = new jjConsole();
+jjconsoler.consoleLog('123test');
+```
 
 ## Example
 
