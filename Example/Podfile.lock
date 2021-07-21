@@ -1,0 +1,35 @@
+PODS:
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - JJBundle (0.1.0)
+  - JJJSBridge (0.1.0):
+    - JJBundle
+    - SnapKit
+  - SnapKit (4.2.0)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase (~> 2.1.4)
+  - JJJSBridge (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - FBSnapshotTestCase
+    - JJBundle
+    - SnapKit
+
+EXTERNAL SOURCES:
+  JJJSBridge:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  JJBundle: 4ccebc2e7ef065046ad415a1ac08eed4f5feecc6
+  JJJSBridge: 6b642625065b693e7b2630f7fb54e36a6465b9b2
+  SnapKit: fe8a619752f3f27075cc9a90244d75c6c3f27e2a
+
+PODFILE CHECKSUM: d1b032db32d7ff5e5ab962f16d56b854860e8fca
+
+COCOAPODS: 1.9.3

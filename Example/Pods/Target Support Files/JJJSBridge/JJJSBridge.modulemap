@@ -1,0 +1,6 @@
+framework module JJJSBridge {
+  umbrella header "JJJSBridge-umbrella.h"
+
+  export *
+  module * { export * }
+}

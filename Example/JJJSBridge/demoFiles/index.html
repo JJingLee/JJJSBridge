@@ -1,0 +1,37 @@
+
+<!DOCTYPE html>
+<html>
+<title>W3.CSS</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"> -->
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+<style>
+.material-icons {vertical-align:-14%}
+</style>
+<body>
+
+  <div class="w3-container">
+    <button id="123" onclick="return callFunc()" type="button">openWeb</button>
+  </div>
+  <div class="w3-container">
+    <button id="123" onclick="return gotoDemoOpenWeb()" type="button">BaseWeb</button>
+  </div>
+
+</body>
+    <script>
+        function gotoDemoOpenWeb() {
+            window.webkit.messageHandlers.toDemoOpenWeb.postMessage({'func':'toDemoOpenWeb', 'args':''});
+        }
+        function callFunc() {
+            window.webkit.messageHandlers.toNative.postMessage({'func':'consoleLog', 'args':'messagggggggeeeeeee'});
+        };
+        
+        function jsFunc(msg) {
+            return 'jsFunc:' + msg;
+        }
+        window.addEventListener('toJS', function(e){
+            document.getElementById('123').innerHTML = "toJS get";
+            window.webkit.messageHandlers.toConsole.postMessage({'func':'consoleLog', 'args':e.detail});
+        });
+    </script>
+</html>

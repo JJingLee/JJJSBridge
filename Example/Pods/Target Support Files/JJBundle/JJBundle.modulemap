@@ -1,0 +1,6 @@
+framework module JJBundle {
+  umbrella header "JJBundle-umbrella.h"
+
+  export *
+  module * { export * }
+}
