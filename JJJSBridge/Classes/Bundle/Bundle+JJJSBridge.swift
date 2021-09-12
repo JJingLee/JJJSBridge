@@ -9,7 +9,7 @@ import Foundation
 import JJBundle
 
 extension Bundle {
-    public static var jkojsb : JJBundleDSL? {
+    public static var jjjsb : JJBundleDSL? {
         return JJBundleDSL(mainBundleName: "JJJSBridge", anyClassNameInSameBundle: "JJJSBridge.JJJSWorker")
     }
 }
